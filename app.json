@@ -1,0 +1,69 @@
+{
+    "name": "PMAssistantrobot",
+    "description": "A personal assistant to manage your private chats",
+    "keywords": ["telegram", "pm", "chat", "bot", "open", "source"],
+    
+    
+    "env": {
+          "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
+          "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
+          "TG_BOT_TOKEN": {"description": "Your Bot's Token From BotFather Bot","required": true},
+          "ADMIN": {"description": "Your Telegram Id","required": true},
+          "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
+    },
+    "buildpacks": [
+      {"url": "heroku/python"}
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "stack": "heroku-20"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
